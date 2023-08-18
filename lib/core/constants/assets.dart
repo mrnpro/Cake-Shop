@@ -13,6 +13,10 @@ class Assets {
   /// assets/images/cake_black3.jpg
   static const String assetsImagesCakeBlack3 = "assets/images/cake_black3.jpg";
 
+  /// Assets for assetsImagesFreakshake
+  /// assets/images/freakshake.jpg
+  static const String assetsImagesFreakshake = "assets/images/freakshake.jpg";
+
   /// Assets for assetsImagesHotChocolateSauce
   /// assets/images/hot_chocolate_sauce.jpg
   static const String assetsImagesHotChocolateSauce = "assets/images/hot_chocolate_sauce.jpg";

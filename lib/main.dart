@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Screens/HomeScreen/home_screen.dart';
-import 'core/constants/colors.dart';
+import 'core/Themes/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Cake App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.dark(primary: MyColors.kPrimaryColor),
-        useMaterial3: true,
-      ),
+      theme: MyTheme.darkTheme,
       home: const HomeScreen(),
     );
   }
