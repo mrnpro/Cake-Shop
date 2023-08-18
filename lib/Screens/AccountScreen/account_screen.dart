@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../core/constants/assets.dart';
-import 'account_menu.dart';
+import '../Login/login_screen.dart';
+import 'Components/account_menu.dart';
 
 class AccountMainScreen extends StatelessWidget {
   const AccountMainScreen({super.key});
@@ -22,12 +23,19 @@ class AccountMainScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Hero(
-              tag: "profile picture",
-              child: CircleAvatar(
-                radius: 100,
-                backgroundImage: AssetImage(Assets.assetsImagesProfileAvatar),
-              )),
+          Hero(
+            tag: "profile picture",
+            child: Container(
+              height: 200,
+              width: 200,
+              decoration: BoxDecoration(
+                image: const DecorationImage(
+                    image: AssetImage(Assets.assetsImagesProfileAvatar)),
+                borderRadius: BorderRadius.circular(100),
+                border: Border.all(color: Colors.grey),
+              ),
+            ),
+          ),
           const Text("Natnael Fikadu",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
           AccountMenu(
@@ -39,7 +47,10 @@ class AccountMainScreen extends StatelessWidget {
             text: "Delete Accont",
           ),
           AccountMenu(
-            press: () {},
+            press: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const LoginScreen()));
+            },
             text: "LogOut",
           )
         ],

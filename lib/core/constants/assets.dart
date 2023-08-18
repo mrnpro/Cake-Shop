@@ -33,7 +33,19 @@ class Assets {
   /// assets/images/white_cake.jpg
   static const String assetsImagesWhiteCake = "assets/images/white_cake.jpg";
 
+  /// Assets for assetsVectorsCelebratingWomen
+  /// assets/vectors/celebrating_women.svg
+  static const String assetsVectorsCelebratingWomen = "assets/vectors/celebrating_women.svg";
+
   /// Assets for assetsVectorsDashboardIcon
   /// assets/vectors/dashboard_icon.svg
   static const String assetsVectorsDashboardIcon = "assets/vectors/dashboard_icon.svg";
+
+  /// Assets for assetsVectorsLock
+  /// assets/vectors/Lock.svg
+  static const String assetsVectorsLock = "assets/vectors/Lock.svg";
+
+  /// Assets for assetsVectorsMessage
+  /// assets/vectors/Message.svg
+  static const String assetsVectorsMessage = "assets/vectors/Message.svg";
 }
