@@ -41,6 +41,10 @@ class Assets {
   /// assets/vectors/dashboard_icon.svg
   static const String assetsVectorsDashboardIcon = "assets/vectors/dashboard_icon.svg";
 
+  /// Assets for assetsVectorsEdit
+  /// assets/vectors/edit.svg
+  static const String assetsVectorsEdit = "assets/vectors/edit.svg";
+
   /// Assets for assetsVectorsLock
   /// assets/vectors/Lock.svg
   static const String assetsVectorsLock = "assets/vectors/Lock.svg";
@@ -48,4 +52,12 @@ class Assets {
   /// Assets for assetsVectorsMessage
   /// assets/vectors/Message.svg
   static const String assetsVectorsMessage = "assets/vectors/Message.svg";
+
+  /// Assets for assetsVectorsSubmit
+  /// assets/vectors/submit.svg
+  static const String assetsVectorsSubmit = "assets/vectors/submit.svg";
+
+  /// Assets for assetsVectorsUser
+  /// assets/vectors/user.svg
+  static const String assetsVectorsUser = "assets/vectors/user.svg";
 }
