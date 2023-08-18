@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../MockData/cake_data.dart';
@@ -65,7 +64,7 @@ class CategorizedProducts extends StatelessWidget {
       children: [
         const SizedBox(height: 20),
         CategoryList(size: size),
-        const SizedBox(height: 20),
+        const SizedBox(height: 10),
         SizedBox(
           height: 280,
           width: size.width,
