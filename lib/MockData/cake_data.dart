@@ -59,5 +59,13 @@ final List<CakeData> cakeDatas = [
       cakeShorDescription: "A moist and flavorful carrot cake",
       cakeDescription:
           "This carrot cake is made with fresh carrots, raisins, and walnuts, and is sure to satisfy your sweet tooth. It is moist and flavorful, with a hint of sweetness from the carrots and raisins.",
+      cakePrice: "110"),
+  CakeData(
+      imagePath: Assets.assetsImagesFreakshake,
+      cakeName: "Freak Shake",
+      cakeCategory: "smthing",
+      cakeShorDescription: "A moist and flavorful carrot cake",
+      cakeDescription:
+          "This carrot cake is made with fresh carrots, raisins, and walnuts, and is sure to satisfy your sweet tooth. It is moist and flavorful, with a hint of sweetness from the carrots and raisins.",
       cakePrice: "110")
 ];
