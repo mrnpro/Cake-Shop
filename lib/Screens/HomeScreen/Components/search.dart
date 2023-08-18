@@ -20,6 +20,7 @@ class Search extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           width: size.width,
           decoration: BoxDecoration(
+              border: Border.all(color: Colors.grey),
               borderRadius: BorderRadius.circular(10),
               color: MyColors.ksecondaryColor),
           child: const Row(
@@ -28,7 +29,7 @@ class Search extends StatelessWidget {
                 Row(
                   children: [
                     Icon(Icons.search),
-                    Text("Find your Cake ..."),
+                    Text("Find your Cake 🎂"),
                   ],
                 ),
                 Icon(Icons.filter_list_outlined)
