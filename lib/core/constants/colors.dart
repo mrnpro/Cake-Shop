@@ -7,5 +7,5 @@ final class MyColors {
 
   static final ksecondaryColor = HexColor('#141921');
 
-  static final kOrange = HexColor('#d86621');
+  static final kOrange = HexColor('#D17842');
 }
