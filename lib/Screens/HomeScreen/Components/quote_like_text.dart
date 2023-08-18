@@ -7,7 +7,10 @@ class QuoteText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text("Find your perfect Cake flavor🍰",
-        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30));
+    return const Align(
+      alignment: Alignment.bottomLeft,
+      child: Text("Find your perfect Cake flavor🍰",
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30)),
+    );
   }
 }
