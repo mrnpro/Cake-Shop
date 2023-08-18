@@ -12,6 +12,7 @@ class MyTextFormField extends StatelessWidget {
     this.keyboardType,
     this.controller,
     this.obscureText,
+    this.postSvgIcon,
   });
   final String? Function(String?)? validator;
   final SvgPicture svgIcon;
@@ -19,6 +20,7 @@ class MyTextFormField extends StatelessWidget {
   final TextInputType? keyboardType;
   final TextEditingController? controller;
   final bool? obscureText;
+  final SvgPicture? postSvgIcon;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -36,9 +38,17 @@ class MyTextFormField extends StatelessWidget {
           filled: true,
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15.0),
+            borderSide: const BorderSide(
+              width: 1,
+              color: Colors.grey,
+            ),
           ),
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15.0),
+            borderSide: const BorderSide(
+              width: 1,
+              color: Color.fromARGB(255, 167, 167, 167),
+            ),
           ),
           prefixIcon: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -51,6 +61,7 @@ class MyTextFormField extends StatelessWidget {
               ),
             ],
           ),
+          suffix: postSvgIcon,
           floatingLabelBehavior: FloatingLabelBehavior.never,
           contentPadding: const EdgeInsets.all(0),
           hintText: hintText,
