@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/constants/assets.dart';
+import '../EditProfile/edit_profile_screen.dart';
 import '../Login/login_screen.dart';
 import 'Components/account_menu.dart';
 
@@ -39,7 +40,12 @@ class AccountMainScreen extends StatelessWidget {
           const Text("Natnael Fikadu",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
           AccountMenu(
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const EditProfileScreen()));
+            },
             text: "Edit Profile",
           ),
           AccountMenu(
