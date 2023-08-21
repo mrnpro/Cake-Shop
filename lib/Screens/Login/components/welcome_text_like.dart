@@ -9,8 +9,7 @@ class WelcomeTexts extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        Text("Hey There? ,",
-            style: TextStyle(fontSize: 20, color: Colors.white)),
+        Text("Hey There?", style: TextStyle(fontSize: 20, color: Colors.white)),
         Text("Welcome Back ",
             style: TextStyle(
                 fontSize: 20,
