@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Screens/HomeScreen/home_screen.dart';
+import 'Screens/Onboarding/onboarding_screen.dart';
 import 'core/Themes/theme.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Cake App',
       theme: MyTheme.darkTheme,
-      home: const HomeScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }
