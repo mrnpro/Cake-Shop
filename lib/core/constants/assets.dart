@@ -1,6 +1,10 @@
 class Assets {
   Assets._();
   
+  /// Assets for assetsImagesAccountSettingsOnboarding
+  /// assets/images/account_settings_onboarding.png
+  static const String assetsImagesAccountSettingsOnboarding = "assets/images/account_settings_onboarding.png";
+
   /// Assets for assetsImagesCakeBlack1
   /// assets/images/cake_black1.jpg
   static const String assetsImagesCakeBlack1 = "assets/images/cake_black1.jpg";
@@ -17,9 +21,17 @@ class Assets {
   /// assets/images/freakshake.jpg
   static const String assetsImagesFreakshake = "assets/images/freakshake.jpg";
 
+  /// Assets for assetsImagesHomeOnboarding
+  /// assets/images/home_onboarding.png
+  static const String assetsImagesHomeOnboarding = "assets/images/home_onboarding.png";
+
   /// Assets for assetsImagesHotChocolateSauce
   /// assets/images/hot_chocolate_sauce.jpg
   static const String assetsImagesHotChocolateSauce = "assets/images/hot_chocolate_sauce.jpg";
+
+  /// Assets for assetsImagesLoginOnboarding
+  /// assets/images/login_onboarding.png
+  static const String assetsImagesLoginOnboarding = "assets/images/login_onboarding.png";
 
   /// Assets for assetsImagesOreoIceCreamCake
   /// assets/images/oreo_ice_cream_cake.jpg
