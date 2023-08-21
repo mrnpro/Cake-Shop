@@ -1,6 +1,9 @@
 # cake_shop
 
 A new Flutter project.
+![Screenshot of the cake app home screen](https://github.com/mrnpro/Cake-Shop/blob/main/Screenshots/photo_2023-08-20_15-37-03.jpg)
+![Screenshot of the cake app login screen](https://github.com/mrnpro/Cake-Shop/blob/main/Screenshots/photo_2023-08-18_12-37-22.jpg)
+![Screenshot of the cake app edit profile  screen](https://github.com/mrnpro/Cake-Shop/blob/main/Screenshots/photo_2023-08-18_12-37-23.jpg)
 
 ## Getting Started
 
