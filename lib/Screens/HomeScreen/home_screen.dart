@@ -17,13 +17,21 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: _body(context));
+    return Scaffold(
+        // bottomNavigationBar: BottomNavigationBar(items: const [
+        //   BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+
+        //   BottomNavigationBarItem(
+        //       icon: Icon(Icons.favorite_border), label: "Favorite"),
+        //   BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile")
+        // ]),
+        body: _body(context));
   }
 
   Widget _body(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(8),
       child: SafeArea(
         child: SingleChildScrollView(
           child: Column(
