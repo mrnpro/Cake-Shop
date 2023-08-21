@@ -26,21 +26,21 @@ class EditProfileForm extends StatelessWidget {
               return null;
             },
             svgIcon: SvgPicture.asset(Assets.assetsVectorsUser),
-            hintText: 'Username'),
+            hintText: 'Phone'),
         const SizedBox(height: 10),
         MyTextFormField(
             validator: (val) {
               return null;
             },
-            svgIcon: SvgPicture.asset(Assets.assetsVectorsUser),
-            hintText: 'Username'),
+            svgIcon: SvgPicture.asset(Assets.assetsVectorsMessage),
+            hintText: 'Email'),
         const SizedBox(height: 10),
         MyTextFormField(
             validator: (val) {
               return null;
             },
-            svgIcon: SvgPicture.asset(Assets.assetsVectorsUser),
-            hintText: 'Username'),
+            svgIcon: SvgPicture.asset(Assets.assetsVectorsLock),
+            hintText: 'Password'),
         const SizedBox(height: 20),
         SizedBox(
             height: 50, child: SvgPicture.asset(Assets.assetsVectorsSubmit))
